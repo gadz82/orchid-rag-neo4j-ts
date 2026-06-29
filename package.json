@@ -30,7 +30,7 @@
     "node": ">=20.0.0"
   },
   "dependencies": {
-    "@orchid-ai/orchid": "*",
+    "@orchid-ai/orchid": "file:../orchid-ts",
     "neo4j-driver": "^5.15.0"
   },
   "devDependencies": {
