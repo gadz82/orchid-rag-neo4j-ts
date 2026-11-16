@@ -2,6 +2,7 @@
 import neo4j, { type Driver } from 'neo4j-driver';
 import type { OrchidEntity, OrchidEdge, OrchidRAGScope } from '@orchid-ai/orchid/core';
 
+// ORCHID-MEM: 01a1a0c1-de49-7653-9cc1-595047c12021 — TypeScript Neo4j graph store
 export class Neo4jGraphStore {
   static isNull = false;
   private driver: Driver;
